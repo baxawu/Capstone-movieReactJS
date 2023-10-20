@@ -1,0 +1,30 @@
+.jss1{
+    width: 35px;
+    border: none;
+    cursor: pointer;
+    height: 35px;
+    margin: 5px;
+    min-width: unset;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+    font-size: 13px;
+    &:hover{
+        opacity: 0.7
+    }
+
+}
+.jss2 {
+    @extend .jss1;
+    background-color: rgb(118, 118,118);
+    color: rgba(0, 0, 0, 0.26)
+}
+.jss3{
+    @extend .jss1;
+    background-color: orange;
+
+}
+.jss4{
+    @extend .jss1;
+    background-color: green;
+}

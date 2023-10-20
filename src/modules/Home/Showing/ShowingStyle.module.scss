@@ -1,0 +1,221 @@
+.jss1{
+    margin-bottom: 70px;
+    padding-top: 50px;
+}
+
+.carouselItem{
+    .jss1{
+        text-decoration: none;
+        &:hover{
+            .jss6, .jss10{
+                opacity: 1;
+                visibility:visible
+            }
+            .jss11{
+                opacity: 0;
+                visibility:hidden
+            }
+        }
+    }
+    .jss2{
+    padding-left: 0 !important;
+    height: 314px;
+    display: block;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+    .jss3{
+        color: #000;
+    height: 45px;
+    opacity: 1;
+    overflow: hidden;
+    font-size: 18px;
+    max-height: 45px;
+    visibility: visible;
+    font-weight: 600;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    }
+    .jss4{
+        color: #fff;
+    display: inline-block;
+    padding: 0 5px;
+    font-size: 16px;
+    min-width: 33px;
+    background: #fb4226;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 4px;
+    }
+    .jss5{
+        color: #757575;
+    margin: 0px 0px 16px 0px;
+    display: -webkit-box;
+    opacity: 1;
+    overflow: hidden;
+    visibility: visible;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    }
+    .jss6{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    background: linear-gradient(to top,#000,transparent 100%);
+    transition: all 0.3s;
+    visibility: hidden;
+    border-radius: 4px;
+    .jss11{
+        
+        position: absolute;
+        top: '50%';
+        left: '50%';
+        transform: 'translate(-50%, -50%)';
+        width: 400;
+        background-color: #fff;
+        border: '2px solid #000';
+        box-shadow: 24;
+        padding: 4px;
+        .jss11{
+            :global(.MuiModal-backdrop){
+                background-color: 'rgb(0 0 0 / 14%)' !important
+            }
+        }
+    }
+    }
+    .jss7{
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    border: none;
+    height: 60px;
+    z-index: 3;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: transparent;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+
+    .jss8{
+        width: 100%;
+        cursor: pointer;
+    }
+    .jss9{
+        position: relative;
+    }
+    .jss10{
+    top: 0;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    display: block;
+    opacity: 0;
+    padding: 16px 8px;
+    position: absolute;
+    font-size: 18px;
+    background: linear-gradient(to left,#fb4226,#ce3017 100%);
+    text-align: center;
+    visibility: hidden;
+    font-weight: 500;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+        background:#fb4226
+    }
+    
+    .jss11{
+        color: #000;
+        height: 45px;
+        opacity: 1;
+        overflow: hidden;
+        font-size: 18px;
+        max-height: 45px;
+        visibility: visible;
+        font-weight: 600;
+        line-height: 22px;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+    }
+    .jss12{
+        top: 0;
+        left: 0;
+        color: #fff;
+        width: 100%;
+        display: block;
+        padding: 16px 8px;
+        font-size: 18px;
+        background: linear-gradient(to left,#fb4226,#ce3017 100%);
+        text-align: center;
+        font-weight: 500;
+        border-radius: 4px;
+        text-decoration: none;
+        cursor: pointer;
+        &:hover{
+            background:#fb4226
+        }}
+}
+    
+    .dots{
+        margin-top: 20px;
+        position: absolute;
+        display: block;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+        li{
+            position: relative;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            padding: 0;
+            cursor: pointer;
+            button{
+                font-size: 0;
+                line-height: 0;
+                display: block;
+                width: 20px;
+                height: 20px;
+                padding: 5px;
+                cursor: pointer;
+                color: #afafaf;
+                border: 0;
+                outline: none;
+                background: transparent;
+            }
+            button:before{
+                font-family: 'slick';
+                font-size: 14px;
+                line-height: 20px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 20px;
+                height: 20px;
+                content: '•';
+                text-align: center;
+                fill: currentColor;
+                opacity: 0.75;
+            }
+        }
+    
+    }
+    .dots :global(li.slick-active) button:before{
+        color: red;
+        
+    }
+}

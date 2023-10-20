@@ -1,0 +1,36 @@
+.jss1{
+    width: 100%;
+    box-shadow: 0 0 5px grey;
+    background-color: #fff;
+    .jss2{
+        display: flex;
+    justify-content: space-between;
+    padding: 24px 16px;
+    }
+    .jss3{
+        color:  #108f3e;
+        font-size: 16px;
+    }
+    .jss4{
+        color: #fff;
+        width: 100%;
+        font-size: 25px;
+        margin-top: 24px;
+        border-radius: unset;
+        background-color: #fb4226;
+    }
+    .jss5{
+        color: rgb(139, 195, 74);
+        font-size: 35px;
+        text-align: center;
+    }
+    .jss6{
+        position: 'absolute';
+  top: '50%';
+  left: '50%';
+  transform: 'translate(-50%, -50%)';
+  width: 400;
+  background-color: #fff;
+  border: '2px solid #000';
+    }
+}

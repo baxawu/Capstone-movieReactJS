@@ -1,0 +1,39 @@
+.jss1{
+    width: 70%;
+    margin: 0 auto;
+}
+.jss2{
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+.jss3{
+    margin: 0px 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.jss4{
+    width: 35px;
+    border: none;
+    height: 35px;
+    margin: 5px;
+    min-width: unset;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 13px;
+    color: black;
+}
+.jss5 {
+    @extend .jss4;
+    background-color: rgb(118, 118,118);
+    color: rgba(0, 0, 0, 0.26);
+}
+.jss6{
+    @extend .jss4;
+    background-color: orange;
+    color: black;
+
+}
