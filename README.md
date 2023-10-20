@@ -1,9 +1,10 @@
 # Thông tin nhóm :
  - Đỗ Thị Thảo.
+ -Lê Nhựt Phi
 
 # Acount Admin :
-- Tên tài khoản : adminsa
-- Mật khẩu : 123456Sa
+- Tên tài khoản : phile1234
+- Mật khẩu : Su123456.
 
 
 # Cấu trúc project
